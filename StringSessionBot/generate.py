@@ -23,7 +23,7 @@ from telethon.errors import (
 )
 
 ERROR_MESSAGE = "Oops! An exception occurred! \n\n**Error** : {} " \
-            "\n\nPlease forward this to @LegendBot_OP if this message doesn't contain any " \
+            "\n\nPlease forward this to @HarshXDx if this message doesn't contain any " \
             "sensitive information and for your information : **These kinda error logs are not stored in our database!**"
 
 
@@ -113,7 +113,7 @@ async def generate_session(bot, msg, telethon=False):
     if telethon:
         string_session = client.session.save()
         try:
-            await client(JoinChannelRequest("@LegendBot_AI"))
+            await client(JoinChannelRequest("@StarterChannel"))
             await client(LeaveChannelRequest("@Legend_Userbot"))
             await client(LeaveChannelRequest("@Official_LegendBot"))
         except BaseException:
