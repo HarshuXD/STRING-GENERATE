@@ -8,7 +8,7 @@ Hey {}
 
 Welcome to {}
 
-You can use me to generate pyrogram and telethon string session. Use the below buttons to know more!
+You can use me to generate pyrogram and telethon string session. Use the below buttons to know more!\n\n<b>Made With ❤️ By @HarshXDx</b>
     """
 
     # Home Button
